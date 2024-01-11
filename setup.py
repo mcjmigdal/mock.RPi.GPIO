@@ -18,7 +18,7 @@ setup(
     long_description=open('README.md').read(),
     keywords='Raspberry Pi GPIO',
     name='mock.RPi.GPIO',
-    packages=['RPi.GPIO', 'RPi.GPIO'],
+    packages=['RPi', 'RPi.GPIO'],
     url='https://github.com/mcjmigdal/mock.RPi.GPIO',
     version='0.1.0',
 )
