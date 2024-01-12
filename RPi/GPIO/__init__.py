@@ -12,8 +12,8 @@ def setmode(a):
 def input(a):
     return STATE[a]
 
-def setup(a, b, initial='foo'):
-    STATE[b] = initial
+def setup(a, b, initial=HIGH):
+    STATE[a] = initial
     pass
 
 
