@@ -9,6 +9,8 @@ STATE = {}
 def setmode(a):
     print(a)
 
+def input(a):
+    return STATE[a]
 
 def setup(a, b, initial='foo'):
     STATE[b] = initial
