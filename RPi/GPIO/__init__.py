@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 BOARD = 1
+BCM = 2
 OUT = 1
 IN = 0
 HIGH = 1
